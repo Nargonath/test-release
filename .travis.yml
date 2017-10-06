@@ -8,7 +8,7 @@ node_js:
   - '8'
 before_install:
   - npm install -g npm@latest
-  - npm list semantic-release
+  - yarn check
 before_script:
   - npm prune
 after_success:
