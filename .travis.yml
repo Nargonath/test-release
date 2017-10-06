@@ -8,7 +8,7 @@ node_js:
   - '8'
 before_install:
   - npm install -g npm@latest
-  - yarn cache clean
+  - npm list semantic-release
 before_script:
   - npm prune
 after_success:
